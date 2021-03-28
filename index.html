@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>숫자야구</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">숫자야구</div>
+      <div class="gameDescription">
+        <ul>
+          <li>
+            정답은 1부터 9사이 수로 구성된 각 자리수가 같지 않은 4자리 숫자
+          </li>
+          <li>4자리 미만의 숫자는 입력할 수 없습니다.</li>
+          <li>총 10번의 기회가 있습니다.</li>
+          <li>숫자와 자릿수가 모두 같은 숫자의 개수만큼 STRIKE</li>
+          <li>숫자만 같고 자릿수는 다른 숫자의 개수만큼 BALL</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <div class="gameButtons">
+        <button>New Game</button>
+        <button>Give up</button>
+      </div>
+      <div class="gameInfo">
+        <div class="gameInfoNumber">
+          <div class="inputNumber" id="inputNumber"></div>
+
+          <div class="answerNumber" id="answerNumber"></div>
+        </div>
+      </div>
+      <div class="gameInfoHistory" id="gameInfoHistory"></div>
+    </div>
+
+    <script src="js.js"></script>
+  </body>
+</html>
