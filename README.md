@@ -9,7 +9,7 @@
 ## 2. 사용기술
 - HTML
 - CSS
-- Javascript
+- Javacript
 
 ## 3. 학습후기
 웹개발 학습 2개월차
